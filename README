@@ -1,0 +1,5 @@
+Macon Money Tracking Tool
+-------------------------
+1. Create database schema using create.sql
+2. Set credentials/configuration info in config.inc and includes/db_include.inc
+3. It is recommended to protect home directory with .htaccess file
