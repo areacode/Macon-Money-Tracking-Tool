@@ -12,10 +12,10 @@ if (!isset ( $db_user )){
 
 function sqlConnect($_db_user, $_db_pass) {	
 
-	$db = "macon_ac_stage";
+	$db = "staging";
 	$user = $_db_user;
 	$password = $_db_pass;
-	$host = "mysql2.topsecret.playareacode.com";
+	$host = "mysql";
 	switch($_SERVER['SERVER_NAME']) {
 		case 'production.com':
 			$db = "staging";
